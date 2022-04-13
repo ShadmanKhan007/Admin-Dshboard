@@ -1,0 +1,83 @@
+.newUser{
+    flex: 4;
+    margin-left: 30px;
+}
+
+.newUserForm{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.newUserItem{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.newUserItem>label{
+    margin-top: 18px;
+    font-size: 17px;
+    font-weight: 580;
+    color: rgba(151, 150, 150);
+}
+
+.newUserItem>input{
+    padding: 14px 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(151, 150, 150);
+    width: 540px;
+    margin-top: 15px;
+}
+
+.newUserItem>select{
+    padding: 14px 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(151, 150, 150);
+    width: 566px;
+    margin-top: 15px;
+}
+
+.newUserItem>option {
+    padding: 14px 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(151, 150, 150);
+    width: 566px;
+    margin-top: 15px;
+}
+
+.newUserItemRadio{
+    width: 600px;
+}
+
+.newUserLabel{
+    display: flex;
+    margin-top: 30px;
+    font-size: 17px;
+    font-weight: 600;
+    color: rgba(151, 150, 150);
+}
+
+.newUserOption{
+    margin-top: 30px;
+}
+
+.newUserOption>label {
+    margin-left: 6px;
+    margin-right: 18px;
+    font-size: 18px;
+    font-weight: 300;
+    color: rgba(151, 150, 150);
+}
+
+.newUserItemButton{
+    margin-top: 40px;
+}
+
+.newUserItemBtn{
+    background-color: darkblue;
+    color: white;
+    padding: 10px 100px;
+    border-radius: 10px;
+    border: 1px solid darkblue;
+    cursor: pointer;
+}
